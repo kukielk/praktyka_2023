@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <title>Tatry - atrakcje turystyczne</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://js.arcgis.com/4.27/esri/themes/light/main.css"/>
+    <script src="https://js.arcgis.com/4.27/"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    
+    <div class="viewDivBase" id="viewDiv2d"></div>
+    <div class="viewDivBase" id="viewDiv3d"></div>
+    <div class="viewDivBase" id="basemapGallery"></div>
+    <div class="splash-screen hidden">
+      <h1 class="splash-screen-header">
+        Aplikacja, która przedstawia atrakcje turystyczne oraz szczyty Tatr.
+        <p class="splash-screen-description">
+            W aplikacji zostały sformatowane okna podręczne, które zawierają takie informacje jak: typ, miejscowość, adres, kod pocztowy oraz stronę internetową.
+            Aplikacja posiada widgety: przybliżenia, oddalenia, wyszukania miejsca, powrót do domu, odnalezienie Twojej lokalizacji.
+            Dodatkowo mapa 3D narzędzie do mieszenia powierzchni w wybranej przez siebie jednostce.
+        </p>
+      </h1>
+      <input type="checkbox" id="never-show-checkbox">Nie pokazuj ponownie</input>
+      <p class="button-paragraph">
+        <button class="button" type="button">Ok</button>
+      </p>
+    </div>
+  </body>
+</html>
